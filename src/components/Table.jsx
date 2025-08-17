@@ -20,7 +20,7 @@ const Table = ({ tableData, handleEdit, handleDelete }) => {
                             <th className='border p-2' onClick={() => navigate("/form")}>Mobile</th>
                             <th className='border p-2 min-w-[300px]' onClick={() => navigate("/form")}>Address</th>
                             <th className='border p-2' onClick={() => navigate("/form")}>Gender</th>
-                            <th className='border p-2 min-w-[186px]' onClick={() => navigate("/form")}>Actions</th>
+                            <th className='border p-2 min-w-[200px]' onClick={() => navigate("/form")}>Actions</th>
                         </tr>
                     </thead>
 
