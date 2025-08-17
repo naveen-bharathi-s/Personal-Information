@@ -43,4 +43,6 @@ npm install
 # Run the app
 npm run dev
 
+```
+
 Thanks for visiting my page.
