@@ -15,7 +15,7 @@ const Table = ({ tableData, handleEdit, handleDelete }) => {
                     <thead>
                         <tr className='bg-gray-100 cursor-pointer text-black'>
 
-                            <th className='border p-2' onClick={() => navigate("/form")}>Name</th>
+                            <th className='border p-2 min-w-[200px]' onClick={() => navigate("/form")}>Name</th>
                             <th className='border p-2' onClick={() => navigate("/form")}>Email</th>
                             <th className='border p-2' onClick={() => navigate("/form")}>Mobile</th>
                             <th className='border p-2 min-w-[300px]' onClick={() => navigate("/form")}>Address</th>
